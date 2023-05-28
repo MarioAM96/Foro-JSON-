@@ -8,16 +8,14 @@ const json_comments = fs.readFileSync('src/comments.json', 'utf-8');
 let comments = JSON.parse(json_comments);
 
 router.get('/', (req, res) => {
-    res.render('index.ejs', {
-        comments
-    });
+    res.json(comments);
 });
 
-router.get('/new-entry', (req, res) => {
+/*router.get('/new-entry', (req, res) => {
     res.render('new-entry');
-});
+});*/
 
-router.post('/new-entry', (req, res) => {
+/*router.post('/new-entry', (req, res) => {
     const { title, comment1, image } = req.body;
 
     if (!title || !comment1|| !image ) {
@@ -38,7 +36,7 @@ router.post('/new-entry', (req, res) => {
     fs.writeFileSync('src/comments.json', json_comments, 'utf-8')
 
     res.redirect('/');
-});
+});*/
 
 
 router.get('/delete/:id', (req, res) => {
