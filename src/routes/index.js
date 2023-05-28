@@ -1,8 +1,11 @@
 const { Router } = require ('express');
 const router = Router ();
 const fs = require('fs');
+const { v4: uuidv4 } = require('uuid');
 
-const comments = [];
+const json_comments = fs.readFileSync('src/comments.json', 'utf-8');
+
+let comments = JSON.parse(json_comments);
 
 router.get('/', (req, res) => {
     res.render('index.ejs', {
@@ -23,6 +26,7 @@ router.post('/new-entry', (req, res) => {
       }
 
     let newComment = {
+        id: uuidv4(),
         title, 
         comment1, 
         image 
@@ -33,7 +37,15 @@ router.post('/new-entry', (req, res) => {
     const json_comments = JSON.stringify(comments);
     fs.writeFileSync('src/comments.json', json_comments, 'utf-8')
 
-    res.send('received');
+    res.redirect('/');
+});
+
+
+router.get('/delete/:id', (req, res) => {
+    comments = comments.filter(comment => comment.id != req.params.id);
+    const json_comments = JSON.stringify(comments);
+    fs.writeFileSync('src/comments.json', json_comments, 'utf-8');
+    res.redirect('/');
 });
 
 module.exports = router;

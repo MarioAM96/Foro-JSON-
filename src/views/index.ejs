@@ -19,10 +19,11 @@
                                 <%= comment.comment1 %>
                             </p>
                         </div>
+                        <img class="card-img-top" src="<%= comment.image %>">
                         <div class="card-footer">
-                            <button class="btn btn-danger">
-                                Delete 
-                            </button>
+                            <a href="/delete/<%= comment.id %>" class="btn btn-danger btn-block">
+                                Delete
+                            </a>
                         </div>
                     </div>
                 </div>
