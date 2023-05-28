@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <%- include('partials/header') %>
 </head>
+
 <body>
-    <div class="container">
+    <div class="container p-4">
         <div class="row">
-            <div class="card">
-                <div class="card-body">
-                    <p> Prueba </p>
-                </div> 
-            </div>
+            <% comments.forEach(function(comment) { %>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <%= comment.title %>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                <%= comment.comment1 %>
+                            </p>
+                        </div>
+                        <img class="card-img-top" src="<%= comment.image %>">
+                        <div class="card-footer">
+                            <a href="/delete/<%= comment.id %>" class="btn btn-danger btn-block">
+                                Delete
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <% }); %>
         </div>
     </div>
 </body>
+
 </html>
