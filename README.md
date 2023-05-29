@@ -31,8 +31,9 @@ npm install nodemon
 npm install uuid
 npm run dev
 ```
+<img width="1512" alt="Screenshot 2023-05-28 at 22 29 29" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/242a8a11-8460-4db7-b171-2164ab8fca5c">
 
-![Screenshot 2023-05-28 at 22.29.29.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.29.29.png)
+
 
 - To run the Front-end use the following commands
 
@@ -43,24 +44,27 @@ ng serve
 
 ```
 
-![Screenshot 2023-05-28 at 22.32.08.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.32.08.png)
+<img width="1512" alt="Screenshot 2023-05-28 at 22 32 08" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/646724e6-afc1-4658-9a9f-df396afbcde8">
+
 
 # Some ScreenShots
 
-![Screenshot 2023-05-28 at 22.35.31.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.35.31.png)
+<img width="1512" alt="Screenshot 2023-05-28 at 22 35 31" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/fdc8acda-b566-4148-b516-c6f88e303d97">
 
-![Screenshot 2023-05-28 at 22.35.58.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.35.58.png)
+<img width="1512" alt="Screenshot 2023-05-28 at 22 35 58" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/3d44a566-94a9-4cf2-847d-6b92b7198d0a">
 
-![Screenshot 2023-05-28 at 22.37.19.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.37.19.png)
+<img width="1512" alt="Screenshot 2023-05-28 at 22 37 19" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/fab03ce0-4598-42cf-b229-20a8a5eb542c">
 
-![Screenshot 2023-05-28 at 22.39.53.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.39.53.png)
+<img width="1512" alt="Screenshot 2023-05-28 at 22 39 53" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/aef9dab2-0189-424a-958d-a769098446da">
 
-![Screenshot 2023-05-28 at 22.45.38.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.45.38.png)
+<img width="1215" alt="Screenshot 2023-05-28 at 22 45 38" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/903b614a-f8b0-4dce-82b5-4b20553aac3b">
+
 
 # **Screenshots of JSON file Storage**
 
-![Screenshot 2023-05-28 at 22.46.44.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.46.44.png)
+<img width="1512" alt="Screenshot 2023-05-28 at 22 46 44" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/9c0026c9-4cf4-43df-82fa-2d5e3c6a8834">
 
-![Screenshot 2023-05-28 at 22.47.17.png](NodeJS,%20Express%20and%20Angular%20with%20JSON%20storage%2041882ead2f734e77a47e0ad6d5f363a7/Screenshot_2023-05-28_at_22.47.17.png)
+<img width="1512" alt="Screenshot 2023-05-28 at 22 47 17" src="https://github.com/MarioAM96/Foro-JSON-/assets/91484233/9245d43b-225e-4b1c-85d5-09b7dde14bc2">
+
 
 #
