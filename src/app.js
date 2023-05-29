@@ -3,6 +3,7 @@ const path = require('path');
 const app = express ();
 const logger  = require('morgan');
 
+app.use(express.json());
 
 //Server Settings
 app.set('port', 3000);
@@ -14,10 +15,12 @@ app.use(logger('dev'));
 app.use(express.urlencoded({extended: false}));
 
 //Routes
-app.use(require('./routes/index'));
+app.use('/api',require('./routes/index'));
+app.use('/api1',require('./routes/user'));
+app.use(express.json());
 
 //Static
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 // 404 handler
 app.use((req, res, next) => {
