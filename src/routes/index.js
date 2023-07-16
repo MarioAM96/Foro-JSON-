@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 
 
 /*router.get('/new-entry', (req, res) => {
-    res.render('new-entry'); Mario 
+    res.render('new-entry'); Mario Cambios
 });*/
 
 router.post('/', (req, res) => {
